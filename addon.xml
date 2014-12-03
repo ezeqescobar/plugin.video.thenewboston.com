@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.thenewboston.com" version="1.0.0" name="TheNewBoston.com" provider-name="BuNKeR (@ezeescobar)">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0" />
+        <import addon="plugin.video.youtube" version="3.1.0" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <language>es</language>
+        <platform>all</platform>
+        <summary lang="es">Navegá y mirá los videos de Thenewboston.com</summary>
+        <description lang="es">Mira cientos de videos tutoriales gratuitos  sobre desarrollo web, programacion y más! (contenido en ingles).
+
+            No estoy relacionado con thenewboston.com. Todos los derechos de los videos estan reservados por sus respectivos dueños.
+        </description>
+        <summary lang="en">Browse and view videos from Thenewboston.com</summary>
+        <description lang="en">Watch thousands of free video tutorials on web development, programming, and more!
+
+            I'm not related with thenewboston.com.All videos copyrights reserved to their respective owners.
+        </description>
+        <source>http://github.com/ezeqescobar/plugin.video.thenewboston.com</source>
+        <disclaimer>Reportar fallos a ezeqescobar@gmail.com</disclaimer>
+        <email>ezeqescobar@gmail.com</email>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+        <forum></forum>
+        <website>http://www.thenewboston.com</website>
+    </extension>
+</addon>
